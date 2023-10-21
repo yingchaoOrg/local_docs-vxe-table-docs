@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "http80":"http-server ./docs -p 80 -a 0.0.0.0",
     "build:v1": "cd v1 && npm run build:main",
     "build:v2": "cd v2 && npm run build:main",
     "build:v3": "cd v3 && npm run build:main",
