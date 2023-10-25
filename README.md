@@ -9,9 +9,11 @@
 
 ## local_docs
 
+> Docker 运行
+
 ```bash
 
-# 临时登录
+# 临时运行 (停止后删除))
 docker run -p  34800:80 --name local_docs-vxe-table-docs --rm ghcr.io/yingchaoorg/local_docs-vxe-table-docs:main
 
 # 后台运行
