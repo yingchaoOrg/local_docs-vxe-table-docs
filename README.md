@@ -11,6 +11,11 @@
 
 ```bash
 
-docker run -p  34800:80 --name local_docs-vxe-table-docs  ghcr.io/yingchaoorg/local_docs-vxe-table-docs:main
+# 临时登录
+docker run -p  34800:80 --name local_docs-vxe-table-docs --rm ghcr.io/yingchaoorg/local_docs-vxe-table-docs:main
+
+# 后台运行
+docker run -p  34800:80 --name local_docs-vxe-table-docs -d ghcr.io/yingchaoorg/local_docs-vxe-table-docs:main
+
 
 ```
