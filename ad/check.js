@@ -10,6 +10,7 @@ function updateMsg (bEl) {
 var adDelay = 6000
 var adTimeout = null
 function checkAd () {
+  return '';
   var warpperEl = document.querySelector('.pagead-right');
   var bEl = document.querySelector('.page-container');
   var wwDiv = document.querySelector('.pagead-right .wwads-cn');
